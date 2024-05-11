@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="True" FileFormat="0" OutputFileName="">C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>10000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>SingleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dallas_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Inspection Type" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Inspection Date" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Inspection Score" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Number" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Name" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Direction" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Type" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Unit" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Street Address" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Zip Code" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 1" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 1" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 2" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 2" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 3" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 3" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 4" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 4" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 5" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 5" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 6" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 6" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 7" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 7" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 8" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 8" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 9" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 9" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 10" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 10" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 11" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 11" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 12" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 12" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 13" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 13" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 14" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 14" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 15" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 15" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 16" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 16" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 17" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 17" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 18" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 18" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 19" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 19" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 20" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 20" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 21" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 21" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 22" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 22" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 23" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 23" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 24" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 24" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Description - 25" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Points - 25" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Inspection Month" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Inspection Year" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+            <Field name="Lat Long Location" size="10000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\dallas_dataset.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhirt\AppData\Local\Temp\Engine_43736_73c939593df4fe409fbe8daed6399c6f_\Engine_43736_73d5fdf594d7ad4f87e4c84957c15cf6~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas_alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b4c28d4f-946a-459e-a62c-7f275512e9ae" />
+      <Telemetry>
+        <PreviousWorkflowId value="e020ef3a-e0a7-4249-bd07-e0d3ef675ca4" />
+        <OriginWorkflowId value="e020ef3a-e0a7-4249-bd07-e0d3ef675ca4" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

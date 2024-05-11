@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>100000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>chicago_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="DBA Name" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="AKA Name" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="License #" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Facility Type" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Risk" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Address" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="City" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="State" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Zip" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Inspection Date" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Inspection Type" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Results" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Violations" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Latitude" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Longitude" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+            <Field name="Location" size="100000" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="402" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violation</RootName>
+          <Delimeters value="," />
+          <NumFields value="5" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Violations" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhirt\AppData\Local\Temp\Engine_42484_70cfd2115f9d3147aa66d3a8a17ee220_\Engine_42484_747de2f1eac09d49a8166ac7af5bc08c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Inspection ID" />
+            <Field field="DBA Name" />
+            <Field field="AKA Name" />
+            <Field field="License #" />
+            <Field field="Facility Type" />
+            <Field field="Risk" />
+            <Field field="Address" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="Zip" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Type" />
+            <Field field="Results" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="Location" />
+            <Field field="Ins_date" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Inspection ID" selected="False" />
+            <Field field="DBA Name" selected="False" />
+            <Field field="AKA Name" selected="False" />
+            <Field field="License #" selected="False" />
+            <Field field="Facility Type" selected="False" />
+            <Field field="Risk" selected="False" />
+            <Field field="Address" selected="False" />
+            <Field field="City" selected="False" />
+            <Field field="State" selected="False" />
+            <Field field="Zip" selected="False" />
+            <Field field="Inspection Date" selected="False" />
+            <Field field="Inspection Type" selected="False" />
+            <Field field="Results" selected="False" />
+            <Field field="Latitude" selected="False" />
+            <Field field="Longitude" selected="False" />
+            <Field field="Location" selected="False" />
+            <Field field="Ins_date" selected="False" />
+            <Field field="Violation1" selected="True" />
+            <Field field="Violation2" selected="True" />
+            <Field field="Violation3" selected="True" />
+            <Field field="Violation4" selected="True" />
+            <Field field="Violation5" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="Ins_date" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Value" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="846" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Name] = "Violation2" OR
+[Name] = "Violation3" OR
+[Name] = "Violation4" OR
+[Name] = "Violation5"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Name] = "Violation2" OR
+[Name] = "Violation3" OR
+[Name] = "Violation4" OR
+[Name...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="954" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>Value</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-02-21 20:36:27</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-02-21 20:36:27</StartDate>
+              <EndDate>2024-02-21 20:36:27</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Value])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1050" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="License #" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="Risk" size="15" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="String" />
+            <Field name="Address" size="51" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="City" size="20" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="String" />
+            <Field name="Zip" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="String" />
+            <Field name="Inspection Type" size="41" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="Results" size="20" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="Violations" size="11620" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="String" />
+            <Field name="Longitude" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="Double" />
+            <Field name="Location" size="40" source="File: C:\Users\dhirt\Documents\NEU\Sem 2\DADABI\midterm_project\chicago_dataset.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="294" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Ins_date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="10" Connection="False" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3d28d35f-8311-4e10-a62b-6eaf39f86769" />
+      <Telemetry>
+        <PreviousWorkflowId value="ea2558d4-d2ee-4a0e-bb2e-42648682834d" />
+        <OriginWorkflowId value="ea2558d4-d2ee-4a0e-bb2e-42648682834d" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
