@@ -1,4 +1,4 @@
-# Food_Inspections_Chicago_Dallas | Alteryx, python (ydata profiling), Talend, MS Excel, MSSQL server, ER studio, Tableau, PowerBI
+# Food Safety Insights: Analyzing Inspections in Chicago and Dallas | Alteryx, python (ydata profiling), Talend, MS Excel, MSSQL server, ER studio, Tableau, PowerBI
 
 # Food Inspection Analysis: Chicago and Dallas  
 
