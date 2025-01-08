@@ -12,7 +12,6 @@ This project provides an in-depth analysis of food inspection data from Chicago 
 5. [Setup Instructions](#setup-instructions)  
 6. [Insights and Conclusions](#insights-and-conclusions)  
 7. [Future Work](#future-work)  
-8. [Contributors](#contributors)  
 
 ---
 
