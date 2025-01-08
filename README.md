@@ -1,7 +1,5 @@
 # Food Safety Insights: Analyzing Inspections in Chicago and Dallas | Alteryx, python (ydata profiling), Talend, MS Excel, MSSQL server, ER studio, Tableau, PowerBI
 
-# Food Inspection Analysis: Chicago and Dallas  
-
 This project provides an in-depth analysis of food inspection data from Chicago and Dallas. By exploring inspection trends, violation patterns, and other critical metrics, this project aims to enhance public health insights and improve food safety compliance.  
 
 ## Table of Contents  
