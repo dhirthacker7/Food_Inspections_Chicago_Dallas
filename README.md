@@ -1,4 +1,4 @@
-# Food Safety Insights: Analyzing Inspections in Chicago and Dallas | Alteryx, python (ydata profiling), Talend, MS Excel, MSSQL server, ER studio, Tableau, PowerBI
+# Food_Safety_Insights: Analyzing Inspections in Chicago and Dallas | Alteryx, python (ydata profiling), Talend, MS Excel, MSSQL server, ER studio, Tableau, PowerBI
 
 This project provides an in-depth analysis of food inspection data from Chicago and Dallas. By exploring inspection trends, violation patterns, and other critical metrics, this project aims to enhance public health insights and improve food safety compliance.  
 
@@ -79,8 +79,8 @@ Pie charts comparing inspection outcomes (Pass, Fail, etc.) between Chicago and 
 
 ### 1. Clone the Repository  
 ```bash  
-git clone https://github.com/dhirthacker7/Food_Inspections_Chicago_Dallas.git  
-cd Food_Inspections_Chicago_Dallas  
+git clone https://github.com/dhirthacker7/Food_Safety_Insights.git  
+cd Food_Safety_Insights
 ```
 
 ### 2. Install dependencies
