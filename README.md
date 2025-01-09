@@ -96,6 +96,11 @@ jupyter notebook
 ### 4. Access the Dataset
 Download the datasets for Chicago and Dallas from their respective portals and place them in the data folder.
 
+## Tableau Dashboard
+
+![Tableau_dashboard](./Tableau_dashboard.png)
+
+
 ## Insights and Conclusions
 #### Chicago has a higher percentage of violations related to sanitation, while Dallas sees more issues with food storage.
 #### Certain neighborhoods in both cities consistently exhibit low compliance, indicating a need for targeted interventions.
